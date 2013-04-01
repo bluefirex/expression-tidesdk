@@ -1,4 +1,4 @@
-timer = null;
+var timer = null;
 
 function compileRegex() {
 	var regex = $('#input_regex').val();
@@ -35,6 +35,10 @@ function compileRegex() {
 
 	text = text.replace(/\n/, '<br />');
 	$('#replace').html(text);
+}
+
+function showInfo() {
+	return alert(unescape('© 2013 labs.gidix.de\n\nView on GitHub: https://github.com/bluefirex/expression-tidesdk'))
 }
 
 $(document).ready(function() {

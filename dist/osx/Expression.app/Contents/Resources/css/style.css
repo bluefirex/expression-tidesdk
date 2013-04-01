@@ -1,0 +1,113 @@
+html, body {
+  /* height: 100%; /**/
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 13px;
+	background: #ededed;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	outline: 0;
+	padding: 5px;
+}
+
+section#regex {
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #202020;
+	color: #fff;
+}
+
+	#regex input[type=text] {
+		outline: 0;
+		background: none;
+		border: 0;
+		width: 100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-size: 14px;
+		font-weight: bold;
+		color: #fff;
+	}
+
+#replacement {
+	background: #fff;
+	background: #353535;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 2px solid #17a7df;
+}
+
+	#replacement input[type=text] {
+		width: 100%;
+		border: 0;
+		background: none;
+		color: #fff;
+	}
+
+#error {
+	height: 10px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	background: #800000;
+	color: #fff;
+	display: none;
+}
+
+#text {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+	#text textarea {
+		padding: 20px;
+		border: 0;
+		background: none;
+		outline: 0;
+		width: 92%;
+		text-shadow: 0px 1px 0px #fff;
+		margin: 0;
+		height: 99%;
+		overflow-x: hidden;
+	}
+
+#replace {
+	padding: 20px;
+	background: #ddd;
+	color: #5b5b5b;
+	height: 100%;
+	overflow: auto;
+}
+
+#info {
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	padding-bottom: 15px;
+	padding-right: 10px;
+}
+
+	#info a {
+		background: #bbb;
+		padding: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 11px;
+		color: #5b5b5b;
+		text-shadow: 0px 1px 0px #eee;
+		text-decoration: none;
+		border-radius: 5px;
+	}
+
+	#info a:hover {
+		background: #5b5b5b;
+		color: #bbb;
+		text-shadow: 0px -1px 0px #1b1b1b;
+	}

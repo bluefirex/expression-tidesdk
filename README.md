@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Expression
 ===============
 Expression is an app for testing regular expressions. It is written
@@ -15,4 +14,3 @@ für den produktiven Einsatz gedacht. Der aktuelle Code dient nur zur Vorschau. 
 Wahrscheinlichkeit schwere Bugs vorhanden oder es fehlen Dinge.
 
 Wichtig: Du musst mindestens PHP5.3 installiert haben, um Itschi nutzen zu können.
->>>>>>> f6632037b14257ebac90194cd440366cd61e0e69

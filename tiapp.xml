@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <sdk-version>1.1.0</sdk-version>
+    <sdk-version>1.3.1-beta</sdk-version>
     <guid>86238939-791d-4479-8083-811c22999754</guid>
     <!-- These values are edited/maintained by Titanium Developer -->
 <id>com.gidix.expression</id>
 <name>Expression</name>
 <version>1.0</version>
-<publisher>MyPC</publisher>
+<publisher>labs.gidix.de</publisher>
 <url>http://www.gidix.de/</url>
-<description>not specified</description>
+<description>Regualr Expression Testing App</description>
 <icon>expression_5.png</icon>
 <copyright>2012 by gidix.de</copyright>
     <!-- Window Definition - these values can be edited -->
